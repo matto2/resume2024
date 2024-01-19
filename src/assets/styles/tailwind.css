@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: darkviolet;
+  }
+
+
+@layer base {
+    h1 {
+      @apply text-2xl font-bold [color:var(--primary-color)];
+    }
+    h3 {
+      @apply text-xl font-bold [color:var(--primary-color)];
+    }
+  }
+
+
+  a {
+    @apply font-medium text-[color:var(--primary-color)] hover:underline
+  }

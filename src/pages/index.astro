@@ -1,0 +1,227 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import myImage from "../assets/images/my-pic-sm.png";
+---
+
+<Layout title="Matthew O'Leary Resume">
+  <main>
+    <div class="flex mx-auto mb-8">
+      <div>
+        <Image
+          class="rounded-full w-36"
+          src={myImage}
+          alt="picture of my face with my painting in the background"
+        />
+      </div>
+      <div class="ml-6">
+        <h1 class="">Matthew O'Leary</h1>
+        <p class="mb-4">Graphic and Product Designer</p>
+
+        <p>
+          Seaside, California<br />
+          <a href="tel:831-234-7766">831-234-7766</a><br />
+
+          <a href="https://www.linkedin.com/in/matt-oleary">LinkedIn</a> | <a
+            href="https://mattoleary.design">Portfolio</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <hr />
+
+    <h3>Professional Summary</h3>
+
+    <p class="mb-8">
+      Experienced Graphic and Product Designer specializing in enterprise SaaS,
+      UX/UI, and graphic design. Proven track record in optimizing user
+      experiences and developing design systems. Proficient in print, packaging,
+      and publication design, as well as web design and development, marketing
+      communications, and branding. I leverage AI for all my work as
+      appropriate, ensuring innovative and effective solutions.
+    </p>
+
+    <div class="mb-8">
+      <h3>Skills</h3>
+      User Experience (UX) and User Interface (UI) Design, Graphic Design, Web Design
+      and Development, Mobile App Design, Brand Identity and Branding, Prototyping
+      and Rapid Iteration, Soft Skills (Effective communication, collaboration, and
+      problem-solving)
+    </div>
+
+    <h3>Work Experience</h3>
+
+    <p class="mt-2">
+      <strong>Freelance Website Design and Development</strong> Seaside, CA
+    </p>
+    <p class="italic mb-1">March 2016 – Present</p>
+  </main>
+
+  <ul class="list-disc list-inside">
+    <li>Design and develop websites for individuals and businesses</li>
+    <li>User Experience and Interaction Design</li>
+    <li>Wordpress development</li>
+    <li>SEO optimization</li>
+    <li>Design for accessibility</li>
+    <li>HTML, CSS, JS, Astro.js</li>
+  </ul>
+
+  <p class="mt-6">
+    <strong>Senior Product Designer at Wiser Solutions</strong> San Mateo, CA (Remote)
+    <p class="italic mb-1">April 2022 – March 2023</p>
+
+    <ul class="list-disc list-inside">
+      <li>
+        Developed digital products for pricing and brand protection, enhancing
+        overall product performance.
+      </li>
+      <li>
+        Created and tested prototypes, ensuring optimal user experiences and
+        collaborating with development teams.
+      </li>
+      <li>
+        Led virtual meetings and conducted impactful usability testing sessions.
+      </li>
+      <li>Refined design systems for brand consistency and scalability.</li>
+      <li>
+        Collaborated with Marketing to promote new products and educate
+        customers.
+      </li>
+      <li>
+        Crafted marketing and transactional emails using Mailchimp and SendGrid.
+      </li>
+      <li>
+        Authored content for UI, optimizing notifications, instructions, and
+        button labels for enhanced user engagement.
+      </li>
+    </ul>
+
+    <p class="mt-6">
+      <strong>Senior Product Designer at Axway</strong> Phoenix, AZ (Remote)
+      <p class="italic mb-1">March 2018 – April 2022</p>
+    </p>
+
+    <ul class="list-disc list-inside">
+      <li>
+        Optimized product performance and utility through the development of
+        user journeys.
+      </li>
+      <li>
+        Transformed product requirements into user flows, utilizing
+        white-boarding and sketching.
+      </li>
+      <li>
+        Conducted onsite and remote usability testing programs with customers.
+      </li>
+      <li>
+        Established and maintained compliance with Web Content Accessibility
+        Guidelines (WCAG) 2.0.
+      </li>
+      <li>
+        Designed for web, mobile-web, and native platforms (Android and iOS).
+      </li>
+      <li>
+        Authored content for UI, ensuring clarity in notifications,
+        instructions, and button labels.
+      </li>
+    </ul>
+
+    <p class="mt-6">
+      <strong>Product Designer at Kiteworks</strong> Palo Alto, CA
+      <p class="italic mb-1">August 2014 – February 2018</p>
+
+      <ul class="list-disc list-inside">
+        <li>
+          Redesigned the entire web UI, resulting in higher engagement and
+          reduced churn.
+        </li>
+        <li>
+          Crafted strategic product design solutions, informed by user research
+          and usability testing.
+        </li>
+        <li>
+          Wrote content for UI, optimizing notifications, instructions, and
+          button labels for improved user experience.
+        </li>
+      </ul>
+
+      <p class="mt-6">
+        <strong>Design Engineer at FastPencil</strong> Campbell, CA
+
+        <p class="italic mt-1">November 2011 – May 2014</p>
+
+        <ul class="list-disc list-inside">
+          <li>
+            Redesigned the entire FastPencil cloud-based publishing platform,
+            emphasizing overall experience and interface.
+          </li>
+          <li>
+            Developed book covers, templates, and marketing websites for
+            authors.
+          </li>
+          <li>
+            Digital Marketing for growth of core SaaS product, as well as for
+            individual authors.
+          </li>
+        </ul>
+
+        <p class="mt-6">
+          <strong>Production Manager at McDill Associates</strong> Soquel, CA
+          <p class="italic mb-1">September 2008 – November 2011</p>
+        </p>
+
+        <ul class="list-disc list-inside">
+          <li>Managed design and development of consumer packaged goods.</li>
+          <li>
+            Ensured compliance with U.S. and Canada regulations for food package
+            labels.
+          </li>
+          <li>
+            Designed packaging, advertising, catalogs, signage, and marketing
+            communications.
+          </li>
+          <li>
+            Created award-winning photo-illustrations for Martinelli’s sparkling
+            and organic apple juice lines.
+          </li>
+          <li>Conducted email campaigns using Mailchimp.</li>
+        </ul>
+
+        <p class="mt-6">
+          <strong>Prepress Manager at West Marine</strong> Watsonville, CA
+          <p class="italic mb-1">October 2001 – September 2008</p>
+
+          <ul class="list-disc list-inside mb-8">
+            <li>
+              Established an internal prepress department, saving approximately
+              $1 million over two years.
+            </li>
+            <li>Supervised image coordinator and prepress assistants.</li>
+            <li>
+              Designed logos, gift cards, coupon books, promotional signage, and
+              special projects.
+            </li>
+          </ul>
+
+          <h3>Education</h3>
+
+          <ul class="list-disc list-inside mt-2">
+            <li>
+              UCSC, Cabrillo College, San Jose State University, UCSC Extension<br
+              />
+              <p class="italic indent-6">
+                Various studies with focus on Fine Arts and Graphic Design and
+                Production
+              </p>
+            </li>
+            <li>
+              Santa Cruz High School, Santa Cruz
+              <p class="italic indent-6">High School Diploma</p>
+            </li>
+          </ul>
+        </p>
+      </p>
+    </p>
+  </p>
+</Layout>
