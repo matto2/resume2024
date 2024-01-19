@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    --primary-color: darkviolet;
+    --primary-color: rgb(0, 119, 166);
   }
 
 
