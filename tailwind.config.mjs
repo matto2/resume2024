@@ -6,7 +6,13 @@ export default {
 			colors: {
 				"primary-color": "var(--primary-color)",
 			  },
+			  fontFamily: {
+				sans: ["Nunito Variable"],
+			  },
 		},
 	},
 	plugins: [],
 }
+
+
+
