@@ -5,6 +5,7 @@ import myImage from "../assets/images/my-pic-sm.png";
 import DownloadButton from "../components/DownloadButton.astro";
 ---
 
+<!-- @ts-ignore -->
 <Layout title="Matthew O’Leary Resume">
   <main>
     <div class="md:flex mx-auto mb-6 mt-2">
@@ -20,9 +21,13 @@ import DownloadButton from "../components/DownloadButton.astro";
         <p class="font-bold mb-2">Graphic and Product Designer</p>
 
         <p class="mb-6">
-          Seaside, California<br />
+          Seaside, CA |
           <a class="font-normal text-slate-800" href="tel:831-234-7766"
             >831-234-7766</a
+          ><br />
+          <a
+            class="font-normal text-slate-800"
+            href="mailto:mattosurf@gmail.com">mattosurf@gmail.com</a
           ><br />
 
           <a href="https://www.linkedin.com/in/matt-oleary">LinkedIn</a> | <a
@@ -200,16 +205,16 @@ import DownloadButton from "../components/DownloadButton.astro";
 
           <ul class="list-disc list-outside ml-4 mt-2">
             <li>
+              Santa Cruz High School, Santa Cruz
+              <p class="italic">High School Diploma</p>
+            </li>
+            <li>
               UCSC, Cabrillo College, San Jose State University, UCSC Extension<br
               />
               <p class="italic">
                 Various studies with focus on Fine Arts and Graphic Design and
                 Production
               </p>
-            </li>
-            <li>
-              Santa Cruz High School, Santa Cruz
-              <p class="italic">High School Diploma</p>
             </li>
           </ul>
         </p>
