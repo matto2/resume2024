@@ -8,10 +8,10 @@ import DownloadButton from "../components/DownloadButton.astro";
 <!-- @ts-ignore -->
 <Layout title="Matthew O’Leary Resume">
   <main>
-    <div class="md:flex mx-auto mb-6 mt-2">
+    <div class="md:flex mx-auto sm:mb-2 mt-2">
       <div>
         <Image
-          class="rounded-full w-32 mb-2"
+          class="rounded-full w-36 mb-6"
           src={myImage}
           alt="picture of my face with my painting in the background"
         />
@@ -40,19 +40,28 @@ import DownloadButton from "../components/DownloadButton.astro";
     <h3>Professional Summary</h3>
 
     <p class="mb-8">
-      Experienced Graphic and Product Designer specializing in enterprise SaaS,
-      UX/UI, and graphic design. Proven track record in optimizing user
-      experiences and developing design systems. Proficient in print, packaging,
-      and publication design, as well as web design and development, marketing
-      communications, and branding. I leverage AI when appropriate, ensuring
+      Experienced Graphic and Product Designer with a proven track record in
+      optimizing user experiences and developing design solutions that drive
+      business growth. Proficient in all-around design for print and web, social
+      media marketing, and branding. I leverage AI when appropriate to ensure
       innovative, efficient, and effective solutions.
     </p>
 
     <div class="mb-8">
       <h3>Skills</h3>
-      User Experience (UX) and User Interface (UI) Design, Graphic Design, Web Design
-      and Development, Mobile App Design, Identity and Branding, Prototyping and
-      Rapid Iteration, Soft Skills (Effective communication, collaboration, and problem-solving)
+      <ul class="list-disc list-outside ml-4">
+        <li>User Experience (UX) and User Interface (UI) Design</li>
+        <li>Graphic Design</li>
+        <li>Web Design and Development</li>
+        <li>Production Design (packaging, signage, event graphics)</li>
+        <li>Identity and Branding</li>
+        <li>Prototyping and Rapid Iteration</li>
+        <li>
+          Soft Skills (effective communication, collaboration, and
+          problem-solving)
+        </li>
+        <li>Social Media Marketing and Communications</li>
+      </ul>
     </div>
 
     <h3>Work Experience</h3>
@@ -65,11 +74,9 @@ import DownloadButton from "../components/DownloadButton.astro";
 
   <ul class="list-disc list-outside ml-4">
     <li>Design and develop websites for individuals and businesses</li>
-    <li>User Experience and Interaction Design</li>
     <li>Wordpress development</li>
     <li>SEO optimization</li>
-    <li>Design for accessibility</li>
-    <li>HTML, CSS, JS, Astro.js</li>
+    <li>HTML, CSS, Astro.js</li>
   </ul>
 
   <p class="mt-6">
@@ -93,12 +100,12 @@ import DownloadButton from "../components/DownloadButton.astro";
         Crafted marketing and transactional emails using Mailchimp and SendGrid.
       </li>
       <li>
-        Authored content for UI, optimizing notifications, instructions, and
-        button labels for enhanced user engagement.
+        Wrote content for UI, optimizing notifications, instructions, and button
+        labels.
       </li>
     </ul>
 
-    <p class="mt-6 print:pt-6">
+    <p class="mt-6">
       <strong>Senior Product Designer at Axway</strong> Phoenix, AZ (Remote)
       <p class="italic mb-1">March 2018 – April 2022</p>
     </p>
