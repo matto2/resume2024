@@ -11,7 +11,7 @@ import DownloadButton from "../components/DownloadButton.astro";
     <div class="md:flex mx-auto sm:mb-2">
       <div>
         <Image
-          class="rounded-full w-36 mb-6"
+          class="rounded-full w-36 mb-4"
           src={myImage}
           alt="picture of my face with my painting in the background"
         />
@@ -22,9 +22,9 @@ import DownloadButton from "../components/DownloadButton.astro";
 
         <p class="mb-6">
           Seaside, CA <br />
-          <!-- <a class="font-normal text-slate-800" href="tel:831-234-7766"
-            >831-234-7766</a
-          ><br /> -->
+          <a class="font-normal text-slate-800" href="tel:831-275-2566"
+            >831-275-2566</a
+          ><br />
           <a
             class="font-normal text-slate-800"
             href="mailto:mattosurf@gmail.com">mattosurf@gmail.com</a
@@ -89,7 +89,7 @@ import DownloadButton from "../components/DownloadButton.astro";
     <strong>Senior Product Designer at Wiser Solutions</strong> San Mateo, CA (Remote)
     <p class="italic mb-1">April 2022 – March 2023</p>
 
-    <ul class="list-disc list-outside ml-4">
+    <ul class="list-disc list-outside ml-4 print:mb-48">
       <li>
         Developed digital products for pricing and brand protection, enhancing
         overall product performance.
@@ -107,7 +107,11 @@ import DownloadButton from "../components/DownloadButton.astro";
       </li>
     </ul>
 
-    <p class="mt-6">
+    <p class="hidden print:block">
+      <br />
+    </p>
+
+    <p class="mt-6 print:mt-4">
       <strong>Senior Product Designer at Axway</strong> Phoenix, AZ (Remote)
       <p class="italic mb-1">March 2018 – April 2022</p>
     </p>

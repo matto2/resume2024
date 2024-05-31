@@ -5,23 +5,26 @@ export default {
 		extend: {
 			colors: {
 				"primary-color": "var(--primary-color)",
-			  },
-			  fontFamily: {
+			},
+			fontFamily: {
 				sans: ["Nunito Variable"],
-			  },
-			  fontWeight: {
-				     light: 300,
-						normal: 400,
-						medium: 500,
-				       semibold: 600,
-						bold: 700,
-				       extrabold: 800,
-						black: 900,
-					  }
+			},
+			fontWeight: {
+				light: 300,
+				normal: 400,
+				medium: 500,
+				semibold: 600,
+				bold: 700,
+				extrabold: 800,
+				black: 900,
+			},
+		},
+	},
+	variants: {
+		extend: {
+			display: ['print'],
+			// Add other properties you want to enable for the print variant if needed
 		},
 	},
 	plugins: [],
 }
-
-
-
