@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 import myImage from "../assets/images/my-pic-sm.png";
+import myImage2 from "../assets/images/My-profile-pic_new_v5.png";
 import DownloadButton from "../components/DownloadButton.astro";
 ---
 
@@ -12,16 +13,18 @@ import DownloadButton from "../components/DownloadButton.astro";
       <div>
         <Image
           class="rounded-full w-36 mb-4"
-          src={myImage}
+          src={myImage2}
           alt="picture of my face with my painting in the background"
         />
       </div>
       <div class="md:ml-8">
-        <h1 class="">Matthew O’Leary</h1>
-        <p class="fonts-sans font-bold mb-2">Designer & Digital Marketer</p>
+        <h1>Matthew O’Leary</h1>
+        <p class="font-sans font-bold mb-2">
+          Creative Digital Marketing Specialist
+        </p>
 
-        <p class="mb-6">
-          Seaside, CA <br />
+        <p class="mb-4">
+          Seaside, California <br />
           <a class="font-normal text-slate-800" href="tel:831-275-2566"
             >831-275-2566</a
           ><br />
@@ -29,7 +32,6 @@ import DownloadButton from "../components/DownloadButton.astro";
             class="font-normal text-slate-800"
             href="mailto:mattosurf@gmail.com">mattosurf@gmail.com</a
           ><br />
-
           <a href="https://www.linkedin.com/in/matt-oleary">LinkedIn</a> | <a
             href="https://mattoleary.design">Portfolio</a
           >
@@ -39,86 +41,100 @@ import DownloadButton from "../components/DownloadButton.astro";
 
     <h3>Professional Summary</h3>
 
-    <p class="mb-8">
-      Experienced Graphic Designer with a proven track record in
-      developing design solutions that drive business growth. Advanced design
-      skills for print and web, social media marketing, and branding. I leverage
-      the best-in-class graphic design and web development tools to ensure innovative, beautiful, and effective solutions.
+    <p class="mb-4 mt-1">
+      Experienced Digital Marketer and Designer with a proven track record of
+      delivering marketing and design solutions that drive business growth.
+      Skilled in digital strategy, social media marketing, branding, and
+      print/web design. I leverage industry-leading tools to create innovative,
+      visually compelling, and results-driven solutions.
     </p>
 
-    <div class="mb-8">
+    <div class="mb-4">
       <h3>Skills</h3>
-      <ul class="list-disc list-outside ml-4">
-        <li>Graphic Design</li>
-        <li>Web Design and Development</li>
-        <li>User Experience (UX) and User Interface (UI) Design</li>
-        <li>Digital Marketing</li>
-        <li>Identity and Branding</li>
-        <li>Prototyping and Rapid Iteration</li>
-        <li>Design System Creation and Maintenance</li>
-        <li>Fashion and Product Photography (photo editing/asset management)</li>
-        <li>
-          Soft Skills (effective communication, collaboration, and
-          problem-solving)
-        </li>
-        <li>Content Creation, SEO, and PPC optimization</li>
+      <ul class="list-disc list-outside ml-4 mt-1">
+        <li>Digital Marketing (Content Creation, SEO, PPC Optimization)</li>
+        <li>Web Design, Development, and UX/UI Design</li>
+        <li>Identity, Branding, and Design Systems</li>
+        <li>Graphic Design (Print and Web)</li>
+        <li>Prototyping, Rapid Iteration, and Testing</li>
+        <li>Fashion/Product Photography and Asset Management</li>
+        <li>Social Media Strategy and Marketing</li>
+        <li>Effective Communication, Collaboration, and Problem-Solving</li>
       </ul>
     </div>
 
     <h3>Work Experience</h3>
 
-    <p class="mt-2">
-      <strong>Freelance Website and Graphic Design</strong> Seaside, CA
+    <p class="mt-1">
+      <strong>VP of Marketing</strong><br />
+      Foclarity AI, Santa Cruz, CA<br />
+      <span class="italic">June 2023 – Present</span>
     </p>
-    <p class="italic mb-1">2016 – Present</p>
-  </main>
+    <ul class="list-disc list-outside ml-4">
+      <li>
+        Develop and execute a comprehensive marketing strategy, driving customer
+        acquisition and business growth.
+      </li>
+      <li>
+        Establish and strengthen the brand identity, ensuring clear and
+        consistent messaging across all channels.
+      </li>
+      <li>
+        Lead successful customer acquisition campaigns, optimizing for
+        conversions and scaling efforts as the startup grows.
+      </li>
+      <li>
+        Collaborate closely with the founder/CEO to align marketing with product
+        development, enhancing user experience and customer satisfaction.
+      </li>
+      <li>
+        Build strategic partnerships and relationships, increasing visibility
+        and credibility in the market.
+      </li>
+      <!-- <li>Design and develop websites for individuals and businesses</li>
+      <li>Print Design - Packaging, Advertising and Signage</li>
+      <li>HTML, CSS, Astro.js, Wordpress, Shopify</li>
+      <li>Social Media Marketing</li>
+      <li>
+        Clients include: Big Surf Adventures, Khakis of Carmel, Santa Cruz Whale
+        Watching
+      </li> -->
+    </ul>
 
-  <ul class="list-disc list-outside ml-4">
-    <li>Design and develop websites for individuals and businesses</li>
-    <li>Print Design - Packaging, Advertising and Signage</li>
-    <li>HTML, CSS, Astro.js, Wordpress, Shopify</li>
-    <li>Social Media Marketing</li>
-    <li>
-      Clients include: Big Surf Adventures, Khakis of Carmel, Santa Cruz Whale
-      Watching
-    </li>
-  </ul>
-
-  <p class="mt-6">
-    <strong>Senior Product Designer at Wiser Solutions</strong> San Mateo, CA (Remote)
-    <p class="italic mb-1">April 2022 – March 2023</p>
-
-    <ul class="list-disc list-outside ml-4 print:mb-48">
+    <p class="mt-4">
+      <strong>Senior Product Designer</strong><br />
+      Wiser Solutions, San Mateo, CA (Remote)<br />
+      <span class="italic">April 2022 – March 2023</span>
+    </p>
+    <ul class="list-disc list-outside ml-4">
       <li>
         Developed digital products for pricing and brand protection, enhancing
-        overall product performance.
+        product engagement and reducing churn.
+      </li>
+      <li class="print:mb-[16rem]">
+        Created Figma prototypes to run usability sessions with customers and
+        collaborate with Developers and Product Managers.
       </li>
       <li>
-        Created Figma prototypes and ran iterative usability sessions with them.
+        Refined and applied Design System for brand consistency across newly
+        acquired products.
       </li>
-      <li>Refined design systems for brand consistency and scalability.</li>
       <li>
-        Collaborated with Marketing to promote new products and educate
-        customers.
+        Collaborated with Marketing to succesfully launch new products and
+        onboard customers.
       </li>
       <li>
         Crafted marketing and transactional emails using Mailchimp and SendGrid.
       </li>
     </ul>
-
-    <p class="hidden print:block">
-      <br />
+    <p class="mt-4">
+      <strong>Senior Product Designer</strong><br />
+      Axway, Phoenix, AZ (Remote)<br />
+      <span class="italic">March 2018 – April 2022</span>
     </p>
-
-    <p class="mt-6 print:mt-4">
-      <strong>Senior Product Designer at Axway</strong> Phoenix, AZ (Remote)
-      <p class="italic mb-1">March 2018 – April 2022</p>
-    </p>
-
     <ul class="list-disc list-outside ml-4">
       <li>
-        Transformed product requirements into user flows, utilizing
-        white-boarding and sketching.
+        Transformed complex product requirements into user-friendly workflows.
       </li>
       <li>
         Conducted onsite and remote usability testing programs with customers.
@@ -128,7 +144,8 @@ import DownloadButton from "../components/DownloadButton.astro";
         Guidelines (WCAG) 2.0.
       </li>
       <li>
-        Designed for web, mobile-web, and native platforms (Android and iOS).
+        Designed SaaS applications for web, and native platforms (Android and
+        iOS).
       </li>
       <li>
         Authored content for UI, ensuring clarity in notifications,
@@ -136,101 +153,99 @@ import DownloadButton from "../components/DownloadButton.astro";
       </li>
     </ul>
 
-    <p class="mt-6">
-      <strong>Product Designer at Kiteworks</strong> Palo Alto, CA
-      <p class="italic mb-1">August 2014 – February 2018</p>
-
-      <ul class="list-disc list-outside ml-4">
-        <li>
-          Redesigned the entire web UI, resulting in higher engagement and
-          reduced churn.
-        </li>
-        <li>
-          Crafted strategic product design solutions, informed by user research
-          and usability testing.
-        </li>
-        <li>
-          Wrote concise content for UI (notifications, instructions, and button
-          labels)
-        </li>
-      </ul>
-
-      <p class="mt-6">
-        <strong>Designer at FastPencil</strong> Campbell, CA
-
-        <p class="italic mt-1">November 2011 – May 2014</p>
-
-        <ul class="list-disc list-outside ml-4">
-          <li>
-            Redesigned the entire FastPencil cloud-based publishing platform,
-            emphasizing overall experience and interface.
-          </li>
-          <li>
-            Designed and developed book covers, templates, and marketing
-            websites for authors.
-          </li>
-          <li>
-            Digital Marketing for growth of core SaaS products, as well as for
-            individual authors.
-          </li>
-        </ul>
-
-        <p class="mt-6">
-          <strong>Design Manager at McDill Associates</strong> Soquel, CA
-          <p class="italic mb-1">September 2008 – November 2011</p>
-        </p>
-
-        <ul class="list-disc list-outside ml-4">
-          <li>Managed design and development of consumer packaged goods.</li>
-          <li>
-            Ensured compliance with U.S. and Canada regulations for food package
-            labels.
-          </li>
-          <li>
-            Designed packaging, advertising, catalogs, signage, and marketing
-            communications.
-          </li>
-        </ul>
-
-        <p class="mt-6">
-          <strong>Prepress Manager at West Marine</strong> Watsonville, CA
-          <p class="italic mb-1">October 2001 – September 2008</p>
-
-          <ul class="list-disc list-outside ml-4 mb-8">
-            <li>
-              Established an internal prepress department, saving approximately
-              $1 million over two years.
-            </li>
-            <li>Supervised image coordinator and prepress assistants.</li>
-            <li>
-              Designed logos, gift cards, coupon books, promotional signage, and
-              other special projects.
-            </li>
-            <li>
-              Created an in-house, large-format printing and signage service for
-              corporate and store events.
-            </li>
-          </ul>
-
-          <h3>Education</h3>
-
-          <ul class="list-disc list-outside ml-4 mt-2">
-            <li>
-              Santa Cruz High School, Santa Cruz
-              <p class="italic">High School Diploma</p>
-            </li>
-            <li>
-              UCSC, Cabrillo College, San Jose State University, UCSC Extension<br
-              />
-              <p class="italic">
-                Various studies with a focus on Fine Arts and Graphic Design and
-                Production
-              </p>
-            </li>
-          </ul>
-        </p>
-      </p>
+    <p class="mt-4">
+      <strong>Product Designer</strong><br />
+      Kiteworks, Palo Alto, CA<br />
+      <span class="italic">August 2014 – February 2018</span>
     </p>
-  </p>
+    <ul class="list-disc list-outside ml-4">
+      <li>
+        Redesigned the entire web UI of secure mail application, increasing
+        adoption and renewals.
+      </li>
+      <li>
+        Crafted strategic product design solutions, informed by user research
+        and usability testing.
+      </li>
+      <li>
+        Wrote concise content for UI (notifications, instructions, and button
+        labels).
+      </li>
+    </ul>
+
+    <p class="mt-4">
+      <strong>UX/UI Designer</strong><br />
+      FastPencil, Campbell, CA<br />
+      <span class="italic">November 2011 – May 2014</span>
+    </p>
+    <ul class="list-disc list-outside ml-4">
+      <li>
+        Redesigned the entire FastPencil cloud-based publishing platform,
+        emphasizing overall experience and interface.
+      </li>
+      <li>
+        Designed and developed book covers, templates, and marketing websites
+        for authors.
+      </li>
+      <li>
+        Digital Marketing for growth of core SaaS products, as well as for
+        individual authors.
+      </li>
+    </ul>
+
+    <p class="mt-4">
+      <strong>Design Manager</strong><br />
+      McDill Associates, Soquel, CA<br />
+      <span class="italic">September 2008 – November 2011</span>
+    </p>
+    <ul class="list-disc list-outside ml-4 mb-4">
+      <li>Managed design and file preparation of consumer packaged goods.</li>
+      <li>
+        Ensured compliance with U.S. and Canada regulations for food package
+        labels.
+      </li>
+      <li>
+        Designed packaging, advertising, catalogs, signage, event branding and
+        marketing communications.
+      </li>
+    </ul>
+
+    <!-- <p class="mt-6">
+      <strong>Prepress Manager at West Marine</strong><br />
+      Watsonville, CA<br />
+      <span class="italic">October 2001 – September 2008</span>
+    </p>
+    <ul class="list-disc list-outside ml-4 mb-4">
+      <li>
+        Established an internal prepress department, saving approximately $1
+        million over two years.
+      </li>
+      <li>Supervised image coordinator and prepress assistants.</li>
+      <li>
+        Designed logos, gift cards, coupon books, promotional signage, and other
+        special projects.
+      </li>
+      <li>
+        Created an in-house, large-format printing and signage service for
+        corporate and store events.
+      </li>
+    </ul> -->
+
+    <h3>Education</h3>
+    <ul class="list-disc list-outside ml-4 mt-1">
+      <li>
+        Santa Cruz High School, Santa Cruz<br /><span class="italic"
+          >High School Diploma</span
+        >
+      </li>
+      <li>
+        UCSC, Cabrillo College, San Jose State University, UCSC Extension<br
+        /><span class="italic"
+          >Various studies with a focus on Fine Arts and Graphic Design and
+          Production</span
+        >
+      </li>
+    </ul>
+  </main>
   <DownloadButton />
 </Layout>

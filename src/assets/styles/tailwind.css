@@ -20,3 +20,5 @@
   a {
     @apply font-medium text-[color:var(--primary-color)] hover:underline
   }
+
+ 
